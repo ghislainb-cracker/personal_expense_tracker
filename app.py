@@ -17,7 +17,10 @@ def save_expenses(expenses):
     with open(FILE, "w") as f:
         json.dump(expenses, f, indent=4)
 
-
+# Add a new expense
+def add_expense(expenses):
+    category = input("Enter category (Food/Transport/Shopping/Other): ")
+    amount = float(input("Enter amount: "))
     
 
 
