@@ -55,7 +55,9 @@ def category_summary(expenses):
 def main():
     expenses = load_expenses()
     while True:
-       
+        print("\n--- Expense Tracker ---")
+        print("1. Add Expense")
+        print("2. Show All Expenses")
         
 
         
