@@ -36,7 +36,8 @@ def show_expenses(expenses):
         print(f"{e['date']} | {e['category']} | ${e['amount']}")
     print("---------------------")
 
-
+# Show total expenses
+def total_expenses(expenses):
     
 
 
