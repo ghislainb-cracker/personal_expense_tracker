@@ -12,7 +12,10 @@ def load_expenses():
     except FileNotFoundError:
         return []
 
-
+# Save expenses
+def save_expenses(expenses):
+    with open(FILE, "w") as f:
+        json.dump(expenses, f, indent=4)
 
 
     
