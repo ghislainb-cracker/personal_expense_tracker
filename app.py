@@ -41,7 +41,11 @@ def total_expenses(expenses):
     total = sum(e["amount"] for e in expenses)
     print(f"\n💰 Total Expenses: ${total}\n")
 
-
+# Show expenses by category
+def category_summary(expenses):
+    summary = {}
+    for e in expenses:
+        summary[e["category"]] = summary.get(e["category"], 0) + e["amount"]
    
 
        
