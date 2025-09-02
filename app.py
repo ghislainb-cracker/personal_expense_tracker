@@ -38,7 +38,8 @@ def show_expenses(expenses):
 
 # Show total expenses
 def total_expenses(expenses):
-    
+    total = sum(e["amount"] for e in expenses)
+    print(f"\n💰 Total Expenses: ${total}\n")
 
 
    
