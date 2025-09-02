@@ -21,7 +21,10 @@ def save_expenses(expenses):
 def add_expense(expenses):
     category = input("Enter category (Food/Transport/Shopping/Other): ")
     amount = float(input("Enter amount: "))
-    
+    date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    expenses.append({"category": category, "amount": amount, "date": date})
+    save_expenses(expenses)
+    print("✅ Expense added successfully!")
 
 
     
