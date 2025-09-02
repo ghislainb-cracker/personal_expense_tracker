@@ -58,7 +58,11 @@ def main():
         print("\n--- Expense Tracker ---")
         print("1. Add Expense")
         print("2. Show All Expenses")
-        
+        print("3. Show Total Expenses")
+        print("4. Show Category Summary")
+        print("5. Exit")
+
+        choice = input("Choose an option: ")
 
         
        
