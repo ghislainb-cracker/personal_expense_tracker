@@ -4,7 +4,9 @@ from datetime import datetime
 # File to store expenses
 FILE = "expenses.json"
 
-
+# Load previous expenses
+def load_expenses():
+    try:
        
 
 
