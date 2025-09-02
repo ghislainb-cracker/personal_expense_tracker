@@ -52,7 +52,9 @@ def category_summary(expenses):
     print("---------------------")
 
 # Main program
-
+def main():
+    expenses = load_expenses()
+    while True:
        
         
 
