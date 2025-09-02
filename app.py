@@ -70,6 +70,12 @@ def main():
             show_expenses(expenses)
         elif choice == "3":
             total_expenses(expenses)
-       
+        elif choice == "4":
+            category_summary(expenses)
+        elif choice == "5":
+            print("Goodbye! 👋")
+            break
+        else:
+            print("Invalid choice, try again.")
 
 
