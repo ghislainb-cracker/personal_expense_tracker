@@ -31,7 +31,10 @@ def show_expenses(expenses):
     if not expenses:
         print("No expenses recorded yet.")
         return
-    
+    print("\n--- Your Expenses ---")
+    for e in expenses:
+        print(f"{e['date']} | {e['category']} | ${e['amount']}")
+    print("---------------------")
 
 
     
