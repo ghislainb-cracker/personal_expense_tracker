@@ -26,7 +26,11 @@ def add_expense(expenses):
     save_expenses(expenses)
     print("✅ Expense added successfully!")
 
-
+# Show all expenses
+def show_expenses(expenses):
+    if not expenses:
+        print("No expenses recorded yet.")
+        return
     
 
 
