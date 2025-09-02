@@ -64,7 +64,12 @@ def main():
 
         choice = input("Choose an option: ")
 
-        
+        if choice == "1":
+            add_expense(expenses)
+        elif choice == "2":
+            show_expenses(expenses)
+        elif choice == "3":
+            total_expenses(expenses)
        
 
 
