@@ -41,4 +41,5 @@ questions = [
 ]
 
 # Start game
-
+print("🧠 Welcome to the Quiz Game!")
+run_quiz(questions)
