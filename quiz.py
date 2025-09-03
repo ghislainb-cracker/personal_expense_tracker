@@ -53,6 +53,11 @@ questions = [
         "options": ["Steve Jobs", "Mark Zuckerberg", "Bill Gates", "Elon Musk"],
         "answer": 3
     },
+     {
+        "question": "What year was Python created?",
+        "options": ["1989", "1991", "2000", "2010"],
+        "answer": 2
+    },
 ]
 
 # Start game
