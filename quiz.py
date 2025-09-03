@@ -28,7 +28,11 @@ questions = [
         "options": ["Python", "C++", "JavaScript", "Java"],
         "answer": 3
     },
-   \
+    {
+        "question": "Who is the founder of Microsoft?",
+        "options": ["Steve Jobs", "Mark Zuckerberg", "Bill Gates", "Elon Musk"],
+        "answer": 3
+    },
     
 ]
 
