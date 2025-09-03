@@ -18,7 +18,11 @@ def run_quiz(questions):
 
 # Questions
 questions = [
-    
+    {
+        "question": "What does CPU stand for?",
+        "options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Control Program Unit"],
+        "answer": 2
+    },
    
    
     
