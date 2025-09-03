@@ -37,7 +37,12 @@ questions = [
         "question": "What year was Python created?",
         "options": ["1989", "1991", "2000", "2010"],
         "answer": 2
-    }
+    },
+    {
+        "question": "What does CPU stand for?",
+        "options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Control Program Unit"],
+        "answer": 2
+    },
 ]
 
 # Start game
