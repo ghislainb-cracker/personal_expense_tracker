@@ -16,5 +16,13 @@ def run_quiz(questions):
     
     print(f"\n🎉 You got {score}/{len(questions)} correct!")
 
+# Questions
+questions = [
+    
+   
+   
+    
+]
 
+# Start game
 
