@@ -10,7 +10,11 @@ def run_quiz(questions):
 
         if answer.isdigit() and int(answer) == q["answer"]:
             print("✅ Correct!")
-       
+            score += 1
+        else:
+            print(f"❌ Wrong! Correct answer: {q['options'][q['answer']-1]}")
+    
+    print(f"\n🎉 You got {score}/{len(questions)} correct!")
 
 
 
