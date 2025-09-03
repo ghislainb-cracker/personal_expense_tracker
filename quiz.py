@@ -23,7 +23,11 @@ questions = [
         "options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Control Program Unit"],
         "answer": 2
     },
-   
+    {
+        "question": "Which language is mostly used for web development?",
+        "options": ["Python", "C++", "JavaScript", "Java"],
+        "answer": 3
+    },
    
     
 ]
