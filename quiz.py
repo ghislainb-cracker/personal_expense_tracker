@@ -1,5 +1,3 @@
-# Simple Python Quiz Game
-
 def run_quiz(questions):
     score = 0
     for q in questions:
@@ -16,7 +14,7 @@ def run_quiz(questions):
     
     print(f"\n🎉 You got {score}/{len(questions)} correct!")
 
-# Questions
+
 questions = [
     {
         "question": "What does CPU stand for?",
@@ -60,6 +58,6 @@ questions = [
     },
 ]
 
-# Start game
-print("🧠 Welcome to the Quiz Game!")
+
+print("Welcome to the Quiz Game!")
 run_quiz(questions)
