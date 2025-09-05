@@ -15,7 +15,7 @@ def main():
         print("⚠️ Password length should be at least 6 characters.")
         return
     password = generate_password(length)
-    
+    print(f"\n✅ Your secure password is: {password}")
 
 
    
