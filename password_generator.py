@@ -9,7 +9,7 @@ def generate_password(length=12):
     return password
 
 def main():
-    
+    print("🔐 Welcome to Password Generator")
     
     
         
