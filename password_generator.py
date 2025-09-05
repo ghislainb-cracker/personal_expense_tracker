@@ -8,7 +8,7 @@ def generate_password(length=12):
     password = ''.join(random.choice(characters) for _ in range(length))
     return password
 
-
+def main():
     
     
     
