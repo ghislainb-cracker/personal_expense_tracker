@@ -17,5 +17,5 @@ def main():
     password = generate_password(length)
     print(f"\n✅ Your secure password is: {password}")
 
-
+if __name__ == "__main__":
    
