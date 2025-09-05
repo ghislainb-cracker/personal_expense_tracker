@@ -13,7 +13,7 @@ def main():
     length = int(input("Enter password length: "))
     if length < 6:
         print("⚠️ Password length should be at least 6 characters.")
-        
+        return
     
     
 
