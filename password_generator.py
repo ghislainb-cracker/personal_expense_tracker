@@ -14,7 +14,7 @@ def main():
     if length < 6:
         print("⚠️ Password length should be at least 6 characters.")
         return
-    
+    password = generate_password(length)
     
 
 
