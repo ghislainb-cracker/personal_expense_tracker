@@ -18,4 +18,4 @@ def main():
     print(f"\n✅ Your secure password is: {password}")
 
 if __name__ == "__main__":
-   
+    main()
