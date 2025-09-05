@@ -11,7 +11,7 @@ def generate_password(length=12):
 def main():
     print("🔐 Welcome to Password Generator")
     length = int(input("Enter password length: "))
-    
+    if length < 6:
         
         
     
